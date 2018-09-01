@@ -13,7 +13,7 @@ module.exports = {
   target: 'web',
   mode: 'development',
   entry: {
-    app: path.resolve(__dirname,'app/src/main.jsx')
+    app: path.resolve(__dirname,'app/src/index.js')
   },
   output: {
     path: path.resolve(__dirname, 'dist'), // Note: Physical files are only output by the production build task `npm run build`.
